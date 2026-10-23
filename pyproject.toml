@@ -1,7 +1,7 @@
 [project]
 name = "career-agent"
 version = "0.1.0"
-description = ""Multi-agent pipeline that finds AI job postings then tailors a CV for each, and reviews it""
+description = "Multi-agent pipeline that finds AI job postings then tailors a CV for each, and reviews it"
 readme = "README.md"
 authors = [
     { name = "imankh7", email = "imankh7@gmail.com" }
@@ -15,3 +15,8 @@ career-agent = "career_agent:main"
 [build-system]
 requires = ["uv_build>=0.13.5,<0.14.0"]
 build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "ruff>=0.17.2",
+]
