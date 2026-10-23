@@ -1,7 +1,7 @@
 [project]
 name = "career-agent"
 version = "0.1.0"
-description = "A multiple career agent, helping to find proper positions through several resources and pass to the other agent to tailor and check the cv, making it ready for the user to apply with it"
+description = ""Multi-agent pipeline that finds AI job postings then tailors a CV for each, and reviews it""
 readme = "README.md"
 authors = [
     { name = "imankh7", email = "imankh7@gmail.com" }
